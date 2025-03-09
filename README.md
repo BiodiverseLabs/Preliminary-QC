@@ -16,7 +16,7 @@ This script iteratively forms a consensus sequence and The script dynamically ca
 ### 1. Reverse Complement Correction
 - Aligns each read to the consensus sequence.
 - Corrects the orientation of reads by applying reverse complement if the reverse alignment score is better.
-- Iteratively epeats the process until no further reverse complementation is needed (convergence).
+- Iteratively repeats the process until no further reverse complementation is needed (convergence).
 
 ### 2. Outlier Detection
 - **Length-Based Outliers**:
